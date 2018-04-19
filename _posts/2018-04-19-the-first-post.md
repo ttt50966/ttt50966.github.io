@@ -22,3 +22,5 @@ comments: true
 這篇以後搞不好會刪掉 XD
 
 覺得純粹是不想面對上面地獄，逃避到這邊來....
+
+categories : `life`, `github`
