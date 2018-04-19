@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Time to go home"
-date:   2018-04-20 4:00:42 +0800
+date:   2018-04-20 04:00:42 +0800
 categories: life
 comments: true
 ---
@@ -19,3 +19,7 @@ comments: true
 回家念也可以 (這樣騙自己)   
 
 好啦反正還有下次  
+
+其他事物也暫時先不管
+
+回家充電！
