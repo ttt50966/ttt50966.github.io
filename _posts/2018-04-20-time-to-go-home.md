@@ -24,3 +24,6 @@ comments: true
 其他事物也暫時先不管
 
 回家充電！
+
+
+categories : `life`
