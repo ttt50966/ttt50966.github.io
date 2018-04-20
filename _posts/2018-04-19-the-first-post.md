@@ -6,6 +6,7 @@ categories:
 tags:
   github.io
   life
+comments: true
 ---
 
 
