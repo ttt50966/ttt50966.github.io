@@ -4,7 +4,7 @@ date:   2018-04-21 4:00:42 +0800
 categories: 
   python
 tags:
-  python
+  Python
   Jupyter
 comments: true
 ---
