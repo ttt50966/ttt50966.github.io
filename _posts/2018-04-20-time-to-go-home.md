@@ -1,10 +1,14 @@
 ---
 layout: post
 title:  "Time to go home"
-date:   2018-04-20 04:00:42 +0800
+date:   2018-04-20 4:00:42 +0800
 categories: life
 comments: true
 ---
+
+
+
+{% youtube c9PEYJdwdwI 600 400%}
 
 
 這首歌救生班已經聽過無數遍  
@@ -22,3 +26,6 @@ comments: true
 其他事物也暫時先不管
 
 回家充電！
+
+
+categories : `life`
