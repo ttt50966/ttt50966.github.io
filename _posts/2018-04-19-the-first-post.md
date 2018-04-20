@@ -6,6 +6,8 @@ categories:
 tags:
   github.io
   life
+header:
+  image: /assets/workspace-computer-at-work-business-preview.jpg
 ---
 
 
