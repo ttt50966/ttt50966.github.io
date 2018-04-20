@@ -1,14 +1,11 @@
 ---
 title:  "The first post"
-layout: splash
 date:   2018-04-19 14:53:42 +0800
 categories:
   github.io
 tags:
   github.io
   life
-header:
-  image: /assets/workspace-computer-at-work-business-preview.jpg
 ---
 
 
