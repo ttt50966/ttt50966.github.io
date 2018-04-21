@@ -2,7 +2,7 @@
 title:  "Jupyter basic plot"
 date:   2018-04-21 4:00:42 +0800
 categories: 
-  python
+  Python
 tags:
   Python
   Jupyter
