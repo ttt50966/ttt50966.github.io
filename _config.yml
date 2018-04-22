@@ -112,12 +112,12 @@ author:
   foursquare       :
   github           : "ttt50966"
   gitlab           :
-  google_plus      : "+KuanChiaChiu"
+  google_plus      : #"+KuanChiaChiu"
   keybase          :
-  instagram        : "ttt50966"
-  lastfm           : "ttt50966"
+  instagram        : #"ttt50966"
+  lastfm           : #"ttt50966"
   linkedin         : "kuan-chia-chiu" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
-  pinterest        : "ttt50966"
+  pinterest        : #"ttt50966"
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
@@ -126,7 +126,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : "https://www.youtube.com/user/ttt50966/playlists" # "https://youtube.com/c/MichaelRoseDesign"
+  youtube          : #"https://www.youtube.com/user/ttt50966/playlists" # "https://youtube.com/c/MichaelRoseDesign"
 
 
 # Reading Files
