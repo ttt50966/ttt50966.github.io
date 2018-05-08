@@ -1,8 +1,8 @@
 ---
 title:  "零工經濟來了"
-date:   2018-05-07 12:00:42 +0800
+date:   2018-05-08 12:00:42 +0800
 categories: 
-  life
+  Learning
 tags:
   閱部客
   life
