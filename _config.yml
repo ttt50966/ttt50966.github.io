@@ -97,7 +97,7 @@ analytics:
 # Site Author
 author:
   name: "邱冠嘉，Kuan-Chia Chiu"
-  avatar: "/assets/KC.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: "/assets/KC.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "Ph.D student in physics in National Taiwan University"
   location: "Taipei, Taiwan"
   email: "ttt50966@gmail.com"
