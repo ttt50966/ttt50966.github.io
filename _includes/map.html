@@ -1,0 +1,8 @@
+<script>
+    function resizeIframe(obj) {
+        obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+    }
+</script>
+<div>
+    <iframe height="750" width="800" frameborder="0" src="/assets/{{ include.name }}.html" onload="resizeIframe(this)"></iframe>
+</div>

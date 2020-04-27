@@ -1,0 +1,21 @@
+I"<script>
+    function resizeIframe(obj) {
+        obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+    }
+</script>
+
+<div>
+    <iframe width="800" frameborder="0" src="/assets/20200428_map.html" onload="resizeIframe(this)"></iframe>
+</div>
+
+<script>
+    function resizeIframe(obj) {
+        obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+    }
+</script>
+
+<div>
+    <iframe height="750" width="800" frameborder="0" src="/assets/20200428_Folium.html" onload="resizeIframe(this)"></iframe>
+</div>
+
+:ET
