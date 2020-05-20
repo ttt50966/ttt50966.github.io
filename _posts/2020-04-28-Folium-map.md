@@ -9,6 +9,3 @@ comments: true
 ---
 
 {% include python-notebook.html name="20200428_map" %}
-
-{% include map.html name="20200428_Folium" %}
-
