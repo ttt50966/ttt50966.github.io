@@ -1,0 +1,6 @@
+I"<p>一個懶人腳本，很多時候在Terminal裡面直接執行這個程式比起開網頁登入還要快. 
+中間省下的時間可以做別的事😆. 
+它會登入<a href="https://mis.cc.ntu.edu.tw/pay/Default.aspx">這個網站</a>，然後取得你薪資欄的最後一位並顯示到帳日期. 
+如果今年都還沒有薪資入帳，就不會顯示去年的最後一條(目前沒打算修正這個小bug). 
+記得要裝好<code class="highlighter-rouge">selenium</code>還有去抓Chrome符合你瀏覽器版本的`webdriver.</p>
+:ET
