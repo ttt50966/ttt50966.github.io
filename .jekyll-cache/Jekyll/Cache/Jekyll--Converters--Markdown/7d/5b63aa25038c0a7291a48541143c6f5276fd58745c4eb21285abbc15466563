@@ -1,0 +1,17 @@
+I"$<h1 id="karabiner-elements"><a href="https://karabiner-elements.pqrs.org">Karabiner-Elements</a></h1>
+
+<blockquote>
+  <p>A powerful and stable keyboard customizer for macOS.</p>
+</blockquote>
+
+<p>我的macbook pro鍵盤上的tab鍵已經失靈好一陣子了<br />
+它不是完全沒有反應，而是要用力壓以及一定角度才有反應<br />
+經過許多教學文，也重置過PRAM與SMC<br />
+但都沒有解決<br />
+最後決定找類似AutoHotKey(AHK)的替代方案<br />
+找了一陣子終於找到這個<code class="highlighter-rouge">Karabiner-Element</code><br />
+把<code class="highlighter-rouge">~</code>鍵(tilde and grave accent)與<code class="highlighter-rouge">tab</code> 鍵互換!<br />
+另外一個使用頻率蠻少的<br />
+就這樣我的Terminal 使用上快多了~</p>
+
+:ET
