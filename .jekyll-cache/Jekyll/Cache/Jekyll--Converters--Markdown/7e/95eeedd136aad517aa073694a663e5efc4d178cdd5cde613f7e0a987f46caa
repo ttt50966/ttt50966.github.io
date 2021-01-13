@@ -1,0 +1,21 @@
+I"9<p>參考<a href="https://blog.csdn.net/weixin_42782150/article/details/107176500">這篇文章</a></p>
+
+<p>套在自己data上面大概變這樣</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">moving_average</span><span class="p">(</span><span class="n">interval</span><span class="p">,</span> <span class="n">windowsize</span><span class="p">):</span>
+    <span class="n">window</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">windowsize</span><span class="p">))</span> <span class="o">/</span> <span class="nb">float</span><span class="p">(</span><span class="n">windowsize</span><span class="p">)</span>
+    <span class="n">re</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">convolve</span><span class="p">(</span><span class="n">interval</span><span class="p">,</span> <span class="n">window</span><span class="p">,</span> <span class="s">'same'</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">re</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">"PTCDA_Abs Diff.txt"</span><span class="p">,</span><span class="n">sep</span><span class="o">=</span><span class="s">'</span><span class="se">\t</span><span class="s">'</span><span class="p">)</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s">"Field (G)"</span><span class="p">][</span><span class="mi">3</span><span class="p">:]</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s">"Diff. S21_Log Mag. (dB)"</span><span class="p">][</span><span class="mi">3</span><span class="p">:]</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">dpi</span><span class="o">=</span><span class="mi">300</span><span class="p">,</span> <span class="n">facecolor</span><span class="o">=</span><span class="s">"white"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s">"original"</span><span class="p">)</span>
+<span class="n">y_new</span> <span class="o">=</span> <span class="n">moving_average</span><span class="p">(</span><span class="n">y</span><span class="p">,</span><span class="mi">11</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y_new</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s">"smooth"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><img src="/assets/20210114_Smooth Data.png" alt="" /></p>
+
+:ET

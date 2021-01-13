@@ -28,4 +28,5 @@ plt.plot(x,y_new,label="smooth")
 plt.legend()
 ```
 
-<img src="/Users/kuanchia/Documents/ttt50966.github.io/assets/20210114_Smooth Data.png" alt="20210114_Smooth Data" style="zoom:50%;" />
+![](/assets/20210114_Smooth Data.png)
+
